@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "36999115089",
+    "project_id": "dafadt-d1854",
+    "storage_bucket": "dafadt-d1854.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36999115089:android:6fb900eb2b14cefe08e370",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36999115089-kfq7de15kh4ftrmga36ocuqt8gvne0vm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtamar-Ot4ZFKUAobbDh0kBXOetPXk21A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "36999115089-kfq7de15kh4ftrmga36ocuqt8gvne0vm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
