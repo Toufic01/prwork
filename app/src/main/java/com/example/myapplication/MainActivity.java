@@ -24,16 +24,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void run() {
 
-                if(firebaseAuth.getCurrentUser().getEmail().isEmpty())
-                {
-                    startActivity(new Intent(getApplicationContext(),LoginActivity.class));
+                if ( firebaseAuth.getCurrentUser()!=null ) {
+                    startActivity(new Intent(getApplicationContext(),HomeActivity.class));
                 }
                 else
                 {
-                    startActivity(new Intent(getApplicationContext(),HomeActivity.class));
+                    startActivity(new Intent(getApplicationContext(),ResistorActivity.class));
 
                 }
             }
-        },3000);
+        },5000);
     }
 }

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/Blue_Grotto"
+    android:background="@drawable/gradient_color"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -14,7 +14,7 @@
         >
         <de.hdodenhof.circleimageview.CircleImageView
             android:layout_width="250dp"
-            app:civ_border_color="@color/black"
+            app:civ_border_color="@color/Navy_Blue"
             app:civ_border_width="8dp"
             android:layout_height="250dp"
             android:src="@drawable/logo"
@@ -26,7 +26,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/app_name"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="25dp"
             android:textAlignment="center"
             android:layout_below="@+id/logo"
@@ -34,10 +34,18 @@
             android:id="@+id/appname"
 
             ></TextView>
-        <ProgressBar
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/animation_view"
+            app:lottie_fileName="splash.json"
+            app:lottie_loop="true"
+            app:lottie_autoPlay="true"
+            android:layout_gravity="center"
+            android:layout_alignParentBottom="true"
             android:layout_below="@+id/appname"
-            android:layout_margin="10dp"></ProgressBar>
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"></com.airbnb.lottie.LottieAnimationView>
     </RelativeLayout>
 </LinearLayout>
